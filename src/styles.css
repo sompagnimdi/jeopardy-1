@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Jeopardy;
+  src: url(gyparody_rg.ttf);
+}
+
+html,
+body {
+  font-family: Jeopardy;
+  text-align: center;
+  background-color: darkolivegreen;
+  color: white;
+  letter-spacing: 4px;
+}
+
+span,
+button:hover {
+  color: gold;
+}
+
+button {
+  font-family: Jeopardy;
+  margin-left: 10px;
+  background-color: navy;
+  color: white;
+  border: solid white 1px;
+}
+
+button:hover {
+  border: solid gold 1px;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
